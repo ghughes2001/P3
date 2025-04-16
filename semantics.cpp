@@ -103,7 +103,7 @@ void treeTraversing(node* currentNode, SymbolTable& table)
                 // checking if variable is already in table
                 if (!table.verify(child2->tokenInstance))
                 {
-                    cout << "Error: " << child2->tokenInstance << "is not in the table" << endl;
+                    cout << "Error: " << child2->tokenInstance << " is not in the table" << endl;
                     exit(1);
                 }
             }
