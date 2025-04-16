@@ -9,6 +9,7 @@ semantics.hpp
 #include <iostream>
 #include <string>
 #include <vector>
+#include <algorithm>
 
 #include "semantics.hpp"
 #include "node.hpp"
